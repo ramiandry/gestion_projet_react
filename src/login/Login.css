@@ -1,0 +1,226 @@
+.cont-login {
+  width: 100vw;
+  height: 100vh;
+  background: #e6e2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-cont-login {
+  width: 1252px !important;
+  height: 712px !important;
+}
+
+.rond {
+  width: 80.82px;
+  margin-top: 18px;
+  margin-left: 80px;
+  height: 80.82px;
+  position: absolute;
+  background: linear-gradient(218deg, #9181f4 0%, #5038ed 100%);
+  border-radius: 9999px;
+}
+
+.rond-2 {
+  width: 75px;
+  height: 75px;
+  margin-top: 600px;
+  margin-left: 1100px;
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 120px;
+  position: absolute;
+  box-shadow: 2px 5px 20px rgba(10, 0, 73, 0.1), -2px -5px 20px rgba(10, 0, 73, 0.1);
+  border-radius: 25px;
+}
+
+.login div.cont-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 600px;
+  border-radius: 25px 0 0 25px;
+  background-color: white;
+}
+
+.cont-form .form {
+  width: 364px;
+  height: 550px;
+  border-radius: 25px 0 0 25px;
+  background-color: white;
+}
+
+.cont-form .form .cont-text {
+  text-align: center;
+}
+
+.cont-text h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cont-text p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.form .row {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 52px;
+  background: rgba(239.82, 237.36, 255, 0.8);
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.form svg {
+  margin-left: 7px;
+}
+
+.form .row input {
+  height: 52px;
+  margin-left: 10px;
+  appearance: none;
+  border: 0px solid transparent;
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+  background-color: transparent !important;
+}
+
+.form .row input:focus {
+  border: none !important;
+  outline: none;
+}
+
+.cont-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+form button {
+  width: 124px;
+  height: 52px;
+  border: none !important;
+  background: linear-gradient(100deg, #9181f4 0%, #5038ed 100%);
+  box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.01);
+  border-radius: 16px;
+  color: white;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+.form .texte {
+  width: 364px;
+  height: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.texte p {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.texte span {
+  color: #525252;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.link-btn button:last-child img {
+  margin-right: 20px;
+}
+
+.link-btn button {
+  width: 364px;
+  height: 52px;
+  border-radius: 16px;
+  border: 1px #f0edff solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+
+.link-btn button span {
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.login div.right {
+  padding: 0 !important;
+  width: 50%;
+  height: 600px;
+  background-image: url("../../public/img/Rectangle 4.png");
+  border-radius: 0 25px 25px 0;
+  background-size: 500px 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .right .blur {
+  width: 350px;
+  height: 424px;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 46px;
+  border: 1px rgba(255, 255, 255, 0.52) solid;
+  backdrop-filter: blur(13.6px);
+}
+
+.login .right img.women {
+  position: absolute;
+  margin-left: -200px;
+  height: 422px;
+}
+
+.login .right img.group {
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  margin-left: -35px;
+}
+
+.login .right .blur p {
+  width: 160px;
+  color: white;
+  font-size: 28px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 46px;
+  word-wrap: break-word;
+  padding-left: 10px;
+}
